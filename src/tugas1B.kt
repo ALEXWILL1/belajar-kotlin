@@ -17,7 +17,7 @@ fun main() {
 
     println("\n=== DATA MAHASISWA (SETELAH DIPERBARUI) ===")
     println("Nama     : $nama")
-    println("NPM      : $npm")
+    println("NIM     : $npm")
     println("Semester : $semester")
     println("IPK      : $ipk")
 }
