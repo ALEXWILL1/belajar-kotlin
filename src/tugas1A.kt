@@ -4,6 +4,7 @@ fun main() {
     val tinggi: Double = 180.5
     val aktif: Boolean = true
 
+
     println("nama= $nama")
     println("umur = $umur")
     println("tinggi = $tinggi")
