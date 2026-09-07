@@ -1,23 +1,30 @@
 fun main() {
-    val nama = "Alexander "
-    val npm = "245314014"
+    print("Masukkan Nama     : ")
+    val nama = readln()
+    print("Masukkan NPM      : ")
+    val npm = readln()
+    print("Masukkan Semester : ")
+    var semester = readln().toInt()
+    print("Masukkan IPK      : ")
+    var ipk = readln().toDouble()
 
-    var semester = 3
-    var ipk = 3.01
-
-
-    println("=== DATA MAHASISWA (AWAL) ===")
+    println("\n=== DATA MAHASISWA (AWAL) ===")
     println("Nama     : $nama")
     println("NPM      : $npm")
     println("Semester : $semester")
     println("IPK      : $ipk")
 
-    semester = 4
-    ipk = 3.80
+    println("\n--- Update Data ---")
+    print("Masukkan Semester Baru : ")
+    semester = readln().toInt()
+
+    print("Masukkan IPK Baru      : ")
+    ipk = readln().toDouble()
+
 
     println("\n=== DATA MAHASISWA (SETELAH DIPERBARUI) ===")
     println("Nama     : $nama")
-    println("NIM     : $npm")
+    println("NPM      : $npm")
     println("Semester : $semester")
     println("IPK      : $ipk")
 }
